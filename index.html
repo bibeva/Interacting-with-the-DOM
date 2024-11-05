@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interacting with the DOM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 id="title">Todo List</h1>
+      <div class="updateHeading">
+        <input type="text">
+        <button id="addBtn">Add</button>
+      </div>
+    </header>
+    <button class="toggleBtn">Hide List</button>
+    <div class="lists">
+      <ol>
+        <li>Practice JavaScript</li>
+        <li class="highlight">Make breakfast</li>
+        <li class="highlight">Go for a walk</li>
+        <li>Play basketball with friends</li>
+        <li>Read a book</li>
+      </ol>
+      <button class="btn-remove">Remove Last Task</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
